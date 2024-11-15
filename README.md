@@ -178,3 +178,12 @@ If you take these attributes individually then multiple bonds can have same pref
 **Creating the Unique_key:**
 
 We have imported the data into a jupyter notebook and converted each attribute to their appropriate data type. We took the two columns Prefix and BondNumber together and created a new column Unique_key this is going to act as the common connection between Donors Table and Receivers Table and we need to do this step for both donors and receivers data.
+
+
+# Schema 
+
+The third normal form (3NF) represents a gold standard in database design, ensuring the elimination of update and delete anomalies, as well as addressing issues related to data redundancy. Our aim is to achieve this standard with our dataset.
+
+To accomplish this, we have removed unnecessary columns and those that can be derived from existing data.
+
+The following data dictionary outlines our efforts with each column, detailing our objectives and strategies. The final section provides an overview of the resulting output, highlighting our achievements in database normalization and data refinement. 
